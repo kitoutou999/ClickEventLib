@@ -5,6 +5,8 @@ Bibliothèque pour détecter les clics (gauche/droit) sur les entités et blocs 
 Soit implémentation avec le .jar
 Soit implémentation avec le dossier src directement (bien rename les imports avant le build)
 
+WARNING : Le systeme de d'event de click du joueur est uniquement possible si il tien un objet dans les main et que cette objet a une interaction d'enregistrer, c'est a dire qu'il n'est pas possible avec ce code d'ecouter les inputs de souris sans item
+
 ## Installation
 
 1. Ajouter `ClickEventLib-1.0.0.jar` dans le dossier `libs/` de votre plugin
